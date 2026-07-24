@@ -1,8 +1,28 @@
 aid: bighat-biosciences
-name: Bighat Biosciences
-description: Bighat Biosciences is a company surfaced as a portfolio company of 8vc, a16z and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+name: BigHat Biosciences
+description: >-
+  BigHat Biosciences is a biotechnology company that pairs machine learning with a
+  high-throughput, fully integrated wet lab to design next-generation antibody-based
+  therapeutics. Its platform closes the loop between in-silico antibody design and
+  in-house synthesis and characterization, generating proprietary experimental data
+  that trains its models and speeds the discovery of biologics with improved developability.
+  The company has publicly discussed its Reccy antibody design studio (RADS) and has
+  entered machine-learning-enabled biologics collaborations with Eli Lilly (including
+  Lilly TuneLab), Johnson & Johnson, and Lonza/Synaffix. BigHat is a private, venture-backed
+  company (8VC, a16z) and maintains a public GitHub organization of open-source
+  computational-biology tooling. It does not currently publish a public developer API.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/64ff35ef45fc1e4545e5ffa1/64ff35ef45fc1e4545e6019f_bighat-webclip.png
 url: https://raw.githubusercontent.com/api-evangelist/bighat-biosciences/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,9 +33,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Biotechnology
+- Antibody Design
+- Machine Learning
+- Drug Discovery
+- Therapeutics
+- Artificial Intelligence
+- Life Sciences
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +50,16 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/bighat-biosciences-domain-security.yml
 - type: Website
   url: https://bighatbio.com
+- type: Blog
+  url: https://www.bighatbio.com/news
+- type: GitHubOrganization
+  url: https://github.com/BigHat-Biosciences
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
