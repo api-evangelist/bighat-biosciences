@@ -49,7 +49,7 @@ tags:
 - Company
 - Biotechnology
 - Antibody Design
-- Machine-Learning
+- Machine Learning
 - Drug Discovery
 - Therapeutics
 - Artificial Intelligence
@@ -63,6 +63,7 @@ tags_raw:
 - Therapeutics
 - Artificial Intelligence
 - Life Sciences
+- Machine-Learning
 apis: []
 maintainers:
 - FN: Kin Lane
